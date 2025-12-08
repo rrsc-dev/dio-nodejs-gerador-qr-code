@@ -1,9 +1,13 @@
+import chalk from "chalk";
+
 const mainPrompt = [
   {
     name: "select",
-    description: "Escolha a ferramenta: 1 = QR-Code ou 2 = Password",
+    description: chalk.yellow.bold(
+      "Escolha a ferramenta: 1 = QR-Code ou 2 = Password"
+    ),
     pattern: /^[1-2]+$/,
-    message: "Escolha 1 ou 2",
+    message: chalk.red.italic("Escolha 1 ou 2"),
     required: true,
   },
 ];
