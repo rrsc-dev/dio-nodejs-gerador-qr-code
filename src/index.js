@@ -7,6 +7,8 @@ async function main() {
     if (choose.select == 1) console.log("escolheu qr code");
     if (choose.select == 2) console.log("escolheu password");
   });
+
+  prompt.start();
 }
 
 main();
