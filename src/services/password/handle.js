@@ -1,3 +1,5 @@
+import permittedCharacters from "./utils/permitted-characters.js";
+
 async function handle() {
   let characters = [];
   let password = "";
